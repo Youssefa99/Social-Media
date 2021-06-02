@@ -1,0 +1,82 @@
+h2 {
+    margin: auto;
+    text-align: left;
+    position: relative;
+    left: 2px;
+    height: 10px;
+    font-style:italic;
+    font-size: medium;
+    
+}
+header {
+    position: relative;
+    height: 100px;
+    background-color: rgb(55, 223, 223);
+}
+
+h1 {
+    color: whitesmoke;
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+.container {
+    position:absolute;
+    left: 0;
+}
+.email{
+    top: 5px;
+    height: 25px;
+}
+.tweet {
+    height: 50px;
+}
+h3 {
+    margin: 1%;
+    text-align: left;
+    position: relative;
+    left: 2px;
+    font-style:italic;
+    font-size: small;   
+}
+.post {
+    margin: 10px;
+    height:auto;
+    border-style: solid;
+    border-top-width: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color:rgba(193, 193, 197, 0.699);
+}
+.scrollbox {
+    height:400px;width:100%;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+}
+a:link {
+color: black;
+text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;    
+}
+a:active {
+    color: black;
+text-decoration: none;
+
+}
+  .like-label {
+      position: relative;
+      top: 20px;
+  }
+.bi {
+    width: 2em;
+    height: 2em;
+}
+.fixed {
+    position: fixed;
+}

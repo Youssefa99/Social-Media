@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    height: 200px;
+}
+.msg {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+h1 {
+color: darkred;
+}
+.col-xs {
+    background-color: black;
+}
